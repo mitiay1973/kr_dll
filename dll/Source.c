@@ -1,9 +1,9 @@
 #include <Windows.h>
 #include <stdio.h>
 #define PATH L"kr_dll.dll"
-#define A 2
-#define B 95
-#define C 5
+#define A 500
+#define B 1000
+#define C 20
 typedef int(_cdecl* Pr_chislo)(int a, int b);
 typedef int(_cdecl* Pr_chislo_potok)(int a, int b, int c);
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PWSTR pCmdLine, int nCmdShow)
